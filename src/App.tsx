@@ -8,6 +8,7 @@ function App() {
   const [username, setUsername] = useState<string>(generateRandomEmoji())
   const [currentRoomId, setCurrentRoomId] = useState<string>(defaultRoom.id)
   
+  
   return (
     <>
       <div className='cursor-panel'>
